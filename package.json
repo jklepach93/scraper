@@ -1,0 +1,29 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Scrapes articles, saves them to mongodb, displays them, allows users to leave and delete notes which are also saved on mongodb.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamk1230/Scraper.git"
+  },
+  "author": "Adam Kwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamk1230/Scraper/issues"
+  },
+  "homepage": "https://github.com/adamk1230/Scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.13.14",
+    "morgan": "^1.8.2",
+    "request": "^2.87.0"
+  }
+}
